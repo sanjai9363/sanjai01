@@ -1,0 +1,17 @@
+h1{
+    color: red;
+}
+#para1{
+ height:100px;
+ width: 200px;
+ border: 2px solid black;
+ 
+ padding: 50px;
+ text-align: center;
+
+
+}
+h2{
+    background-color: yellowgreen;
+    width: 200px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseduo class</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        a:link{
+            color: rgba(250, 31, 192, 0.899);
+        }
+        a:visited {
+            color: yellowgreen;
+        }
+        a:active{
+            color: red;
+        }
+        a.highlight:hover{
+            color: green;
+            font-size: 22px;
+
+        }
+        div{
+            background-color: rgb(115, 115, 241);
+            height: 20%;
+            width: 50%;
+            text-align: center;
+            padding: 20px;
+        }
+        div:hover{
+            background-color: green;
+            height: 20%;
+            width: 50%;
+        }
+        p {
+                background-color: yellowgreen;
+                display: none;
+                padding: 20px;
+                text-align: center;
+                width: 300px;
+                margin-left: 200px
+                ;
+        }
+    main:hover p{
+           
+            display: block;
+        }
+        
+            
+        
+    </style>
+</head>
+<body>
+    <h1>css pseduo class</h1>
+  <h2>PSEDUO-LINK,ACTIVE,VISITED,HOVER</h2>
+    <p ><a class="highlight" href="https://www.instagram.com/accounts/login/?hl=en"><b>instagram</b> </a></p>
+    <a href="https://www.google.co.in/">google</a><hr>
+
+  <h2>HOVER ON DIV</h2>
+    <div>over the mouse</div>
+    <hr>
+
+  <h2>SIMPLE TOOLTIP HOVER</h2>
+    <main>good morning, have a nice day
+        <p>sanjai</p>
+    </main>
+</body>
+</html>

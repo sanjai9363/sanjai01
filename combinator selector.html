@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator selector</title>
+    <style>
+        .id{
+            color: aqua;
+        }
+        .center{
+            background-color: yellow;
+        }
+        div p{
+            color: blueviolet;
+            background-color: greenyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>COMBINATOR SELECTORS</h1>
+    <p class="id">A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.</p>
+    <p class="center">There are four different combinators in CSS:</p>
+    <ul type="circle">
+        <li>descendant selector (space)</li>
+        <li>child selector (>)</li>
+        <li>adjacent sibling selector (+)</li>
+        <li>general sibling selector (~)</li>
+    </ul>
+    <h1>descendant selector (space)</h1>
+    <div>
+        <p>hello sanjai</p>
+        <p>hello everyone</p>
+        <article>
+            <p>this is a paragraph</p>
+        </article>
+    </div>
+    <p>outside of div</p>
+</body>
+</html>

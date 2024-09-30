@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attributes selectors</title>
+    <style>
+        h2{
+           
+           text-align: center;
+           background-color: aqua;
+           height: 25px;
+           width: 400px;
+           margin-left:400px ;
+           
+            
+        }
+        a[target]{
+            color: rgb(90, 65, 28);
+            background-color: rgb(198, 204, 26);
+
+            
+        }
+        a[target=_blank]{
+            background-color: lightgreen;
+            
+
+        }
+        a[target=blank]{
+            background-color: lightcoral;
+        }
+       [title~="flower"]{
+        border: 5px solid rebeccapurple ;
+        height: 400px;
+        width: 300px;
+       }
+       [title~="tree"]{
+        margin: 20px;
+        border: 10px solid grey ;
+        height: 200px;
+        width: 300px;
+       }
+        
+    </style>
+</head>
+ <body>
+    <h1>ATTRIBUTES SELECTORS</h1>
+
+    
+    <h2>CSS[Atribute]Selectors</h2>
+         <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">Instagram login</a>
+         <a href="https://www.google.co.in/" target="_parent">Google</a>
+         <a href="https://www.meesho.com/?srsltid=AfmBOoqdwHNZM8pwLfNQImgDa-8Lgsp2lW7xWyFiguJ06W7SVi3nS8tP">Meshoo</a><hr>
+    
+    <h2>CSS [attribute="value"] Selector</h2>
+
+       <a href="https://www.instagram.com/accounts/login/?hl=en" target="blank">Instagram login</a><br>
+       <a href="https://www.google.co.in/" target="_parent">Google</a><br>
+       <a href="https://www.meesho.com/?srsltid=AfmBOoqdwHNZM8pwLfNQImgDa-8Lgsp2lW7xWyFiguJ06W7SVi3nS8tP">Meshoo</a><hr>
+
+    <h2>CSS [attribute~="value"] Selector</h2>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY6WOl0ZgEtv9eWd2yJESpi62todkV2HQ1jQ&s" title="flower" ><br>
+     <img src="https://www.arboroperations.com.au/wp-content/uploads/2021/08/american-elm.jpg" title="tree">
+     
+    <h2>CSS [attribute|="value"] Selector</h2>
+</body>
+</html>
